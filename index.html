@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Томский краеведческий музей</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="museum-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип Томского краеведческого музея">
+            </div>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#about">О музее</a></li>
+                    <li><a href="exhibits.html">Экспонаты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="victory-museum.html">Музей Победы</a></li>
+                    <li><a href="administration.html">Администрация Томской области</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Слайдер -->
+        <section class="hero-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/slide1.jpg" alt="Экспозиция музея">
+                    <div class="slide-content">
+                        <h2>Добро пожаловать в Томский краеведческий музей</h2>
+                        <p>Откройте для себя богатую историю нашего региона</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slide2.jpg" alt="Новая выставка">
+                    <div class="slide-content">
+                        <h2>Новая выставка "Артефакты древности"</h2>
+                        <p>С 15 июня по 30 августа</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slide3.jpg" alt="Экскурсии">
+                    <div class="slide-content">
+                        <h2>Экскурсии для школьников</h2>
+                        <p>Запишитесь на увлекательные экскурсии</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+
+        <!-- О музее -->
+        <section class="about-museum" id="about">
+            <div class="container">
+                <h2>О музее</h2>
+                <div class="about-content">
+                    <img src="images/museum-building.jpg" alt="Здание музея" class="about-image">
+                    <div class="about-text">
+                        <p>Рады приветствовать Вас в Томском Краеведческом музей ИМ. М.Б Шатипова</p>
+                        <p>Идея создания общедоступного музея в г. Томске исходила от интеллигенции города. Однако все усилия по его созданию, предпринятые на рубеже ХIХ–ХХ вв., </p>
+                        <p>оказались неудачными. Между тем для создания «храма муз» в городе имелся значительный потенциал в виде большого числа образованных, заинтересованных людей и </p>
+                        <p>уже накопленных культурных богатств в частных коллекциях.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Интересные экспонаты -->
+        <section class="featured-exhibits">
+            <div class="container">
+                <h2>Интересные экспонаты</h2>
+                <div class="exhibits-grid">
+                    <div class="exhibit-card">
+                        <a href="exhibit-detail.html">
+                            <img src="images/Керамика, стекло/Керамика/24.jpg" alt="Древняя керамика">
+                            <h3>Керамика V века</h3>
+                            <p class="year">V век н.э.</p>
+                        </a>
+                    </div>
+                    <div class="exhibit-card">
+                        <a href="exhibit-detail.html">
+                            <img src="images/Оружие/bd.jpg" alt="Оружие">
+                            <h3>Казачья сабля</h3>
+                            <p class="year">XVIII век</p>
+                        </a>
+                    </div>
+                    <div class="exhibit-card">
+                        <a href="exhibit-detail.html">
+                            <img src="images/Археология собрание/Кулайские/95.jpg" alt="Археологическая находка">
+                            <h3>Бронзовый идол</h3>
+                            <p class="year">X-XII века</p>
+                        </a>
+                    </div>
+                    <div class="exhibit-card">
+                        <a href="exhibit-detail.html">
+                            <img src="images/Изобразительные источники/Графика/6c.jpg" alt="Картина">
+                            <h3>Портрет купца</h3>
+                            <p class="year">1892 год</p>
+                        </a>
+                    </div>
+                    <div class="exhibit-card">
+                        <a href="exhibit-detail.html">
+                            <img src="images/Восточная коллекция/64.jpg" alt="Восточная коллекция">
+                            <h3>Глиняный сосуд</h3>
+                            <p class="year">XVII век</p>
+                        </a>
+                    </div>
+                    <div class="exhibit-card">
+                        <a href="exhibit-detail.html">
+                            <img src="images/Керамика, стекло/Керамика/81.jpg" alt="Древняя керамика">
+                            <h3>Шаманский бубен</h3>
+                            <p class="year">XIX век</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="exhibits.html" class="btn">Все экспонаты</a>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2>Наши контакты</h2>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <p><strong>Адрес:</strong> г. Томск, ул. Ленина, 75</p>
+                        <p><strong>Телефон:</strong> 90-19-20</p>
+                        <p><strong>Время работы:</strong> 
+                            <br>Вт-Вс: 10:00 - 18:00
+                            <br>Пн: выходной
+                        </p>
+                        <p><strong>Правила посещения:</strong> 
+                            <br>Не портить экспонаты
+                            <br>Не приносить с собой еду/питье
+                        </p>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Форма заявки на посещение</h3>
+                        <form id="visit-form">
+                            <div class="form-group">
+                                <label for="visit-date">Дата посещения:</label>
+                                <input type="date" id="visit-date" name="visit-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="visit-time">Время посещения:</label>
+                                <input type="time" id="visit-time" name="visit-time" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Номер WhatsApp:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <button type="submit" class="btn">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="map-placeholder">
+                    <img src="images/map.jpg" alt="Карта расположения музея">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="museum-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <p>г. Томск, ул. Ленина, 75</p>
+                    <p>90-19-20</p>
+                    <p>tokm@tomskmuseum.ru</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="#about">О музее</a></li>
+                        <li><a href="exhibits.html">Экспонаты</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="victory-museum.html">Музей Победы</a></li>
+                        <li><a href="administration.html">Администрация Томской области</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Томский краеведческий музей</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

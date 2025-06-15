@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коллекция экспонатов - Томский краеведческий музей</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="museum-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип Томского краеведческого музея">
+            </div>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="index.html#about">О музее</a></li>
+                    <li><a href="exhibits.html">Экспонаты</a></li>
+                    <li><a href="index.html#contacts">Контакты</a></li>
+                    <li><a href="victory-museum.html">Музей Победы</a></li>
+                    <li><a href="administration.html">Администрация Томской области</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="exhibits-archive">
+        <div class="container">
+            <h1>Коллекция экспонатов</h1>
+            
+            <!-- Фильтры по категориям -->
+            <div class="exhibit-filters">
+                <select id="category-filter">
+                    <option value="all">Все категории</option>
+                    <option value="ceramics">Керамика, стекло</option>
+                    <option value="weapons">Оружие</option>
+                    <option value="archeology">Археологическое собрание</option>
+                    <option value="art">Изобразительные источники</option>
+                    <option value="eastern">Восточная коллекция</option>
+                </select>
+            </div>
+            
+            <!-- Список экспонатов -->
+            <div class="exhibits-grid">
+                <div class="exhibit-card" data-category="ceramics">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Керамика, стекло/Керамика/24.jpg" alt="Древняя керамика">
+                        <h3>Керамика V века</h3>
+                        <p class="year">V век н.э.</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="weapons">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Оружие/bd.jpg" alt="Оружие">
+                        <h3>Казачья сабля</h3>
+                        <p class="year">XVIII век</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="archeology">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Археология собрание/Кулайские/95.jpg" alt="Археологическая находка">
+                        <h3>Бронзовый идол</h3>
+                        <p class="year">X-XII века</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="art">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Изобразительные источники/Графика/6c.jpg" alt="Картина">
+                        <h3>Портрет купца</h3>
+                        <p class="year">1892 год</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="eastern">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Восточная коллекция/64.jpg" alt="Восточная коллекция">
+                        <h3>Китайский фарфор</h3>
+                        <p class="year">XVII век</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="archeology">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Кости, кожа, ткани/71.jpg" alt="Экспонат">
+                        <h3>Кость</h3>
+                        <p class="year">XIX век</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="ceramics">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Керамика, стекло/Керамика/81.jpg" alt="Древняя керамика">
+                        <h3>Глиняный сосуд</h3>
+                        <p class="year">III век н.э.</p>
+                    </a>
+                </div>
+                <div class="exhibit-card" data-category="weapons">
+                    <a href="exhibit-detail.html">
+                        <img src="images/Оружие/91.jpg" alt="Оружие">
+                        <h3>Охотничье ружье</h3>
+                        <p class="year">XIX век</p>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Пагинация -->
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="museum-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <p>г. Томск, ул. Ленина, 75</p>
+                    <p>+7 (3822) 12-34-56</p>
+                    <p>museum@tomsk.ru</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html#about">О музее</a></li>
+                        <li><a href="exhibits.html">Экспонаты</a></li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
+                        <li><a href="victory-museum.html">Музей Победы</a></li>
+                        <li><a href="administration.html">Администрация Томской области</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Томский краеведческий музей</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Фильтрация экспонатов
+        document.getElementById('category-filter').addEventListener('change', function() {
+            const category = this.value;
+            const exhibitCards = document.querySelectorAll('.exhibit-card');
+            
+            exhibitCards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
